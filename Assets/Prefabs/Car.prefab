@@ -799,7 +799,15 @@ MonoBehaviour:
   maxBrakeTorque: 500
   maxSteeringAngle: 25
   maxSpeed: 5000
+  layer: 0
   IsPlayerControlled: 0
+  MaxStuckTime: 3
+  ProgressScore: 1
+  CheckPointScore: 300
+  KillScore: -10000
+  FlipScore: -10000
+  UseFreezing: 0
+  DEBUG: 0
 --- !u!1 &7207285283282257857
 GameObject:
   m_ObjectHideFlags: 0

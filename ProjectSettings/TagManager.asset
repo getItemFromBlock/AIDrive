@@ -8,20 +8,20 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - UI-Mesh
   - Water
   - UI
   - Bumper
   - Car
   - Wheel
   - Floor
+  - Border
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 2D-Border
+  - 2D-Up
+  - 2D-Down
+  - 2D-CUp
+  - 2D-CDown
   - 
   - 
   - 
