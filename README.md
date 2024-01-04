@@ -8,13 +8,13 @@ I decided to make an AI that learn to drive a car in a 3D karting environment, b
 ## Playing
 
 ### Game
-Load the scene GameScene0 or GameScene1 to test the trained AI. You will take control of a car, that you can move yith the WASD keys, and use space for braking You can also hold right clic to move the camera.
+Load the scene GameScene0 or GameScene1 to test the trained AI. You will take control of a car, that you can move with the WASD keys, and use space for braking You can also hold right click to move the camera.
 
 You can play around and observe the AI trying its best to drive around the circuit and maneuver when needed. Note that the AI are automatically respawned when they start going backward in this mode.
 
 ### Training
-Load the scene TrainingScene to test the AI training. The AITrainer component controls how the training is done. The value ```First Generation``` is used to load a already saved generation (IA networks are saved each 20 generations in the ```AppData\LocalLow\Prune Games\AIDrive``` folder). Setting this value to 0 will start the training with completly new networks.
-If ou want to train the AI with one car per circuit, change the ```Circuit Prefab``` field with the prefab TrainingCircuitW1Car, and change the field ```Cars Per Circuit``` to 1.
+Load the scene TrainingScene to test the AI training. The AITrainer component controls how the training is done. The value ```First Generation``` is used to load a already saved generation (IA networks are saved each 20 generations in the ```AppData\LocalLow\Prune Games\AIDrive``` folder). Setting this value to 0 will start the training with completely new networks.
+If you want to train the AI with one car per circuit, change the ```Circuit Prefab``` field with the prefab TrainingCircuitW1Car, and change the field ```Cars Per Circuit``` to 1.
 
 Enter play mode to start training. The down left box will toggle the network viewer, and the box to its right (the one on by default) will make the camera follow the best car. Use the two arrows to change the target car. The text at the top of the screen with the 3 values shows what the car is receiving from the AI network.
 
