@@ -1,6 +1,6 @@
 # AI Drive
 
-This project was made within my studies at Isart Digital.
+This project was made on the Unity Game Engine within my studies at Isart Digital.
 
 The goal of this project was to experiment with artificial intelligence, more precisely neural networks, while staying in the field of video games.
 I decided to make an AI that learn to drive a car in a 3D karting environment, but with added physics to keep the project a little different from the usual 2D-driving project often made in this context.
